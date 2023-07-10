@@ -14,6 +14,7 @@ module.exports = {
   },
   plugins: ['@typescript-eslint/eslint-plugin', 'eslint-plugin-import-helpers'],
   rules: {
+    'no-useless-constructor': 'off',
     'no-console': 'warn',
     '@typescript-eslint/no-empty-function': 'off',
     '@typescript-eslint/interface-name-prefix': 'off',
@@ -65,6 +66,7 @@ module.exports = {
         trailingComma: 'all',
         arrowParens: 'avoid',
         semi: true,
+        bracketSpacing: true,
       },
     ],
   },
